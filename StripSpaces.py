@@ -1,4 +1,4 @@
-#File to strip repeated spaces and replace with a delimiter
+#File to strip repeated spaces and replace with a delimiter (|)
 import os
 import string
 import re
