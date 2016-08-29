@@ -118,3 +118,6 @@ def count_posts_in_month(month):
     return count
 feb_count = count_posts_in_month(2)
 aug_count = count_posts_in_month(8)
+
+world_alcohol = numpy.genfromtxt("world_alcohol.csv", delimiter=",", dtype="U75", skip_header=True)
+print(world_alcohol)
